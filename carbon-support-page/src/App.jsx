@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className='image-holder'>
+      <div className='switch-image-holder'>
         <ImageHolder title='Honolulu' picture={honolulu} />
         <ImageHolder title='London' picture={london} />
       </div>
