@@ -1,18 +1,27 @@
 .img-holder {
+    position: relative;
     width: 100%;
     height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: inset 3em 5em 10em black;
-    position: relative;
-    /* background-image: url(images/Honolulu.jpg); */
-    background-color: black;
-}
+ }
+ .text-on-image {
+   position: absolute;
+   right: 5%;
+   bottom: 5%;
+   color: white;
+ }
 
-.img-holder h1 {
-    color: red;
+ .img-holder:hover {
+    box-shadow: 1px 1px 10px 0px black;
+ }
+
+ .box-shadow-image {
+    box-shadow: inset 3em 5em 10em black;
+    width: 100%;
+    height: auto;
     position: absolute;
+    top: 0;
+    right: 0;
     bottom: 0;
-    right: 10px;
-}
+    left: 0;
+    color: white;
+ }

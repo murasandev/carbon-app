@@ -2,18 +2,24 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Button } from '@carbon/react'
+import { Button, Accordion, AccordionItem } from '@carbon/react'
 import Hello from './assets/components/Hello'
 import ImageHolder from './assets/components/ImageHolder'
 import honolulu from './assets/images/Honolulu.jpg'
+import london from './assets/images/London.jpeg'
+import './globals.scss'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Hello />
-      <ImageHolder title='Honolulu' imageFile='./images/Honolulu.jpg' />
+      <div className='image-holder'>
+        <ImageHolder title='Honolulu' picture={honolulu} />
+        <ImageHolder title='London' picture={london} />
+      </div>
+      
       {/* <div>
         <Button />
         <a href="https://vitejs.dev" target="_blank">
