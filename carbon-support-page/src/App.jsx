@@ -3,11 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button, Accordion, AccordionItem } from '@carbon/react'
-import Hello from './assets/components/Hello'
-import ImageHolder from './assets/components/ImageHolder'
-import honolulu from './assets/images/Honolulu.jpg'
-import london from './assets/images/London.jpeg'
+
 import './globals.scss'
+import SwitcherImage from './components/SwitcherImage'
 
 
 function App() {
@@ -15,10 +13,7 @@ function App() {
 
   return (
     <>
-      <div className='switch-image-holder'>
-        <ImageHolder title='Honolulu' picture={honolulu} />
-        <ImageHolder title='London' picture={london} />
-      </div>
+      <SwitcherImage />
       
       {/* <div>
         <Button />
