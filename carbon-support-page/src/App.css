@@ -45,3 +45,10 @@
 .switch-image-holder {
   display: flex;
 }
+
+.page-holder {
+  direction: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+

@@ -1,0 +1,18 @@
+.header {
+    direction: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.header-logo {
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+

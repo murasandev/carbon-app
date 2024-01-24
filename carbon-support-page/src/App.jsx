@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
 import { Button, Accordion, AccordionItem } from '@carbon/react'
 
 import './globals.scss'
@@ -13,7 +14,11 @@ function App() {
 
   return (
     <>
+    <div className="page-holder">
+      <Header />
       <SwitcherImage />
+    </div>
+      
       
       {/* <div>
         <Button />
