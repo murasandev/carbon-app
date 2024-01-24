@@ -1,0 +1,12 @@
+.sidebar-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+
+}
+
+.button-holder button {
+    width: 100%;
+}
