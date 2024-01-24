@@ -1,9 +1,9 @@
 .header {
-    direction: flex;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* background-color: red; */
 }
 
 .header-logo {
@@ -17,10 +17,5 @@
 .header-logo,
 .header-right {
     display: flex;
-    /* flex-basis: 50%; */
-}
-
-.logo-btn {
-    margin-right: auto;
 }
 

@@ -47,3 +47,13 @@
   justify-content: space-between;
 }
 
+.content-holder {
+  
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  background-color: rebeccapurple;
+}
+
+
+
