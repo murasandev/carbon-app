@@ -8,8 +8,8 @@ export default function SwitcherImage() {
     return(
         <div className="comp-holder">
             <div className="switch-image-holder">
-                <ImageHolder title='hnl' picture={honolulu} />
-                <ImageHolder title='lnd' picture={london} />
+                <ImageHolder title='Honolulu' picture={honolulu} />
+                <ImageHolder title='London' picture={london} />
             </div>
             <ContentSwitcher 
               onChange={(obj) => {

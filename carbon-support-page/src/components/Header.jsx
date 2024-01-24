@@ -1,5 +1,5 @@
 import './Header.css'
-import { Button } from '@carbon/react'
+import { Button, Search } from '@carbon/react'
 import viteLogo from '/vite.svg'
 
 export default function Header() {
@@ -24,6 +24,17 @@ export default function Header() {
                 <Button kind="danger--ghost">
                     Contact Us
                 </Button>
+                <Search
+                    closeButtonLabelText="Clear search input"
+                    defaultValue=""
+                    id="search-playground-1"
+                    labelText="Label text"
+                    placeholder="Search"
+                    playgroundwidth={300}
+                    role="searchbox"
+                    size="md"
+                    type="text"
+                />
             </div>
         </div>     
     )

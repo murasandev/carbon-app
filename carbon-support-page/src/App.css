@@ -44,16 +44,16 @@
 
 .page-holder {
   direction: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .content-holder {
-  
-  flex-direction: row;
+  display: flex;
+  margin: auto;
+  padding-top: 5%;
   width: 80%;
   height: auto;
-  background-color: rebeccapurple;
+  gap: 5%;
 }
-
-
-
