@@ -1,18 +1,26 @@
 .header {
     direction: flex;
     justify-content: space-between;
-    background-color: red;
+    align-items: center;
+    padding: 10px;
+    /* background-color: red; */
 }
 
 .header-logo {
-    background-color: green;
-    display: flex;
     justify-content: flex-start;
 }
 
 .header-right {
-    background-color: blue;
-    display: flex;
     justify-content: flex-end;
+}
+
+.header-logo,
+.header-right {
+    display: flex;
+    /* flex-basis: 50%; */
+}
+
+.logo-btn {
+    margin-right: auto;
 }
 
