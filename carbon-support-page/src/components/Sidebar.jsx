@@ -7,22 +7,22 @@ export default function Hello() {
             
             <div className="button-holder">
                 <Button kind="danger">
-                    Home
+                    Getting Started
                 </Button>
                 <Button kind="danger">
-                    Home
+                    Documentation
                 </Button>
                 <Button kind="danger">
-                    Home
+                    Feedback
                 </Button>
                 <Button kind="danger">
-                    Home
+                    FAQ
                 </Button>
                 <Button kind="danger">
-                    Home
+                    Video Tutorials
                 </Button>
                 <Button kind="danger">
-                    Home
+                    Roadmap
                 </Button>
             </div>
         </div>
