@@ -39,8 +39,9 @@ function App() {
             </div>
           </div>
         </div>
+        <DownArrow />
       </div>
-      <DownArrow />
+      
     </div>
   )
 }

@@ -75,3 +75,7 @@
 .page-title {
   margin-bottom: -25px;
 }
+
+.down-arrow {
+  align-self: flex-end;
+}

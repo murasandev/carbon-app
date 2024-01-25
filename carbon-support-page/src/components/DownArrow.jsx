@@ -3,8 +3,10 @@ import { ArrowDown } from '@carbon/react/icons';
 
 export default function DownArrow() {
   return (
-    <IconButton label="Add" kind="danger">
-      <ArrowDown />
-    </IconButton>
+    <div className="down-arrow">
+        <IconButton label="Add" kind="danger">
+            <ArrowDown />
+        </IconButton>
+    </div>
   );
 }
