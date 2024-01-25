@@ -33,8 +33,8 @@ function App() {
                 onClose={function noRefCheck(){}}
                 onCloseButtonClick={function noRefCheck(){}}
                 statusIconDescription="notification"
-                subtitle="404 Not Found"
-                title="Error:"
+                subtitle="Status Down"
+                title="Live Chat: "
               />
             </div>
           </div>
