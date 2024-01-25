@@ -53,7 +53,7 @@
   display: flex;
   margin: auto;
   padding-top: 5%;
-  width: 80%;
+  /* width: 80%; */
   height: auto;
   /* gap: 5%; */
 }
@@ -61,6 +61,17 @@
 .switcher-holder {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 25px;
   align-items: center;
+}
+
+.title-content-holder {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: -25px;
 }

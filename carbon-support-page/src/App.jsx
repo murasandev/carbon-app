@@ -14,26 +14,30 @@ function App() {
 
     <div className="page-holder">
       <Header />
-      <div className="content-holder">
-        <div className="sidebar-holder">
-          <Sidebar />
-        </div>
-        <div className="switcher-holder">
-          <SwitcherImage />
-          <div className="notification-holder">
-            <InlineNotification
-              aria-label="closes notification"
-              kind="error"
-              onClose={function noRefCheck(){}}
-              onCloseButtonClick={function noRefCheck(){}}
-              statusIconDescription="notification"
-              subtitle="404 Not Found"
-              title="Error:"
-            />
+      
+      <div className="title-content-holder">
+        <h1 className='page-title'>Support</h1>
+        <div className="content-holder">
+          
+          <div className="sidebar-holder">
+            <Sidebar />
+          </div>
+          <div className="switcher-holder">
+            <SwitcherImage />
+            <div className="notification-holder">
+              <InlineNotification
+                aria-label="closes notification"
+                kind="error"
+                onClose={function noRefCheck(){}}
+                onCloseButtonClick={function noRefCheck(){}}
+                statusIconDescription="notification"
+                subtitle="404 Not Found"
+                title="Error:"
+              />
+            </div>
           </div>
         </div>
       </div>
-      
     </div>
   )
 }
