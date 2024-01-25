@@ -17,8 +17,8 @@ export default function SwitcherImage() {
                 // alert(`index: ${index} ||  name: ${name} || text: ${text}`);
               }}>
               <Switch name="locations" text="Our Offices" />
-              <Switch name="contact-form" text="Contact Form" />
-              <Switch name="live-chat" text="Live Chat" />
+              <Switch name="development" text="Development" />
+              <Switch name="community" text="Community" />
             </ContentSwitcher>
         </div>
     )

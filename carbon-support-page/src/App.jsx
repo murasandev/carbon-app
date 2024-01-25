@@ -5,6 +5,7 @@ import { Button, InlineNotification } from '@carbon/react'
 import Sidebar from './components/Sidebar'
 import './globals.scss'
 import SwitcherImage from './components/SwitcherImage'
+import ContactForm from './components/ContactForm'
 
 
 function App() {

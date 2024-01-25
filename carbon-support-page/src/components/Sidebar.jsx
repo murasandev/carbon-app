@@ -19,10 +19,10 @@ export default function Hello() {
                     FAQ
                 </Button>
                 <Button kind="danger">
-                    Video Tutorials
+                    Road Map
                 </Button>
                 <Button kind="danger">
-                    Roadmap
+                    Live Chat
                 </Button>
             </div>
         </div>
