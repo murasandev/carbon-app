@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar'
 import './globals.scss'
 import SwitcherImage from './components/SwitcherImage'
 import ContactForm from './components/ContactForm'
+import DownArrow from './components/DownArrow'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           </div>
         </div>
       </div>
+      <DownArrow />
     </div>
   )
 }
