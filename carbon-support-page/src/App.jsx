@@ -7,6 +7,7 @@ import './globals.scss'
 import SwitcherImage from './components/SwitcherImage'
 import ContactForm from './components/ContactForm'
 import DownArrow from './components/DownArrow'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
         </div>
         <DownArrow />
       </div>
-      
+      <Footer />
     </div>
   )
 }
