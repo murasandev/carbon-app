@@ -1,0 +1,22 @@
+.footer-holder {
+    display: flex;
+}
+
+.footer-links-holder {
+    display: flex;
+}
+
+.footer-offices-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.footer-office-locations {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-office-title {
+    text-decoration: underline;
+}
