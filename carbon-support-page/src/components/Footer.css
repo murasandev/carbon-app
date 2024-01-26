@@ -1,22 +1,17 @@
 .footer-holder {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
 
 .footer-links-holder {
     display: flex;
+    align-items: center;
 }
 
-.footer-offices-holder {
+.footer-social-links {
     display: flex;
-    flex-direction: column;
-    gap: 0px;
-}
-
-.footer-office-locations {
-    display: flex;
-    gap: 15px;
-}
-
-.footer-office-title {
-    text-decoration: underline;
+    color: white;
+    align-items: center;
 }
