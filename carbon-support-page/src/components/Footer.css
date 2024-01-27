@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
 }
 
 .footer-links-holder {
