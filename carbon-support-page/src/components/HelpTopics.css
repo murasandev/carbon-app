@@ -1,0 +1,15 @@
+.help-topics-content-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.help-topics-faq {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-button {
+    width: 200%;
+}

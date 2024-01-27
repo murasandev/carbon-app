@@ -12,6 +12,7 @@ import Notification from './components/Notification'
 import ButtonRow from './components/ButtonRow'
 import ImageHolder from './components/ImageHolder'
 import RoadMap from './components/RoadMap'
+import HelpTopics from './components/HelpTopics'
 
 
 
@@ -22,7 +23,6 @@ function App() {
 
     <div className="page-holder">
       <Header />
-      
       <div className="title-content-holder">
         <h1 className='page-title'>Support</h1>
         <div className="content-holder">
@@ -39,14 +39,7 @@ function App() {
         </div>
         <DownArrow />
         <RoadMap />
-        <h1>Popular Searches </h1>
-        <ButtonRow />
-        <h1>Front End Topics</h1>
-        <ButtonRow />
-        <h1>Back End Topics</h1>
-        <ButtonRow />
-        <h1>Learning</h1>
-        <ButtonRow />
+        <HelpTopics />
       </div>
       <Footer />
     </div>
