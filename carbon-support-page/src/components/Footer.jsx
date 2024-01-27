@@ -13,16 +13,16 @@ export default function Footer() {
             </div>
 
             <div className="footer-social-links">
-                <IconButton label="Facebook" kind="danger--ghost">
+                <IconButton label="Facebook" kind="danger--ghost" className='social-icon'>
                     <LogoFacebook />
                 </IconButton>
-                <IconButton label="GitHub" kind="danger--ghost">
+                <IconButton label="GitHub" kind="danger--ghost" className='social-icon'>
                     <LogoGithub />
                 </IconButton>
-                <IconButton label="Instagram" kind="danger--ghost">
+                <IconButton label="Instagram" kind="danger--ghost" className='social-icon'>
                     <LogoInstagram />
                 </IconButton>
-                <IconButton label="LinkedIn" kind="danger--ghost">
+                <IconButton label="LinkedIn" kind="danger--ghost" className='social-icon'>
                     <LogoLinkedin />
                 </IconButton>
             </div>

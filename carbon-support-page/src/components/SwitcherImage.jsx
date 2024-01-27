@@ -14,7 +14,7 @@ export default function SwitcherImage() {
             <ContentSwitcher 
               onChange={(obj) => {
                 let { index, name, text } = obj;
-                // alert(`index: ${index} ||  name: ${name} || text: ${text}`);
+                alert(`index: ${index} ||  name: ${name} || text: ${text}`);
               }}>
               <Switch name="locations" text="Our Offices" />
               <Switch name="development" text="Development" />

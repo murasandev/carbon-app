@@ -8,6 +8,11 @@ import SwitcherImage from './components/SwitcherImage'
 import ContactForm from './components/ContactForm'
 import DownArrow from './components/DownArrow'
 import Footer from './components/Footer'
+import Notification from './components/Notification'
+import ButtonRow from './components/ButtonRow'
+import ImageHolder from './components/ImageHolder'
+import RoadMap from './components/RoadMap'
+
 
 
 function App() {
@@ -28,19 +33,20 @@ function App() {
           <div className="switcher-holder">
             <SwitcherImage />
             <div className="notification-holder">
-              <InlineNotification
-                aria-label="closes notification"
-                kind="error"
-                onClose={function noRefCheck(){}}
-                onCloseButtonClick={function noRefCheck(){}}
-                statusIconDescription="notification"
-                subtitle="Status Down"
-                title="Live Chat: "
-              />
+              <Notification />
             </div>
           </div>
         </div>
         <DownArrow />
+        <RoadMap />
+        <h1>Popular Searches </h1>
+        <ButtonRow />
+        <h1>Front End Topics</h1>
+        <ButtonRow />
+        <h1>Back End Topics</h1>
+        <ButtonRow />
+        <h1>Learning</h1>
+        <ButtonRow />
       </div>
       <Footer />
     </div>

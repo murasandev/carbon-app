@@ -7,9 +7,6 @@ export default function Hello() {
             
             <div className="button-holder">
                 <Button kind="danger">
-                    Getting Started
-                </Button>
-                <Button kind="danger">
                     Documentation
                 </Button>
                 <Button kind="danger">

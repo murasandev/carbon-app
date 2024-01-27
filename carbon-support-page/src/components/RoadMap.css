@@ -1,0 +1,11 @@
+.road-map-content {
+    display: flex;
+
+}
+
+.road-map-text-holder {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -79,3 +79,7 @@
 .down-arrow {
   align-self: flex-end;
 }
+
+.description-title {
+  font-size: 30px;
+}
