@@ -1,11 +1,38 @@
+.road-map-holder {
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+    width: 100%;
+}
+
 .road-map-content {
     display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
 
+.road-map-item-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .road-map-text-holder {
-    width: 300px;
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.road-map-image-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.road-map-image {
+    object-fit: contain;
 }
