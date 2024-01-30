@@ -10,12 +10,3 @@
 .button-holder button {
     width: 100%;
 }
-
-.sidebar-button {
-    margin-left: 0;
-    transition: margin-left 8s 0s;
-}
-
-.sidebar-button:hover {
-    margin-left: -25px;
-}
