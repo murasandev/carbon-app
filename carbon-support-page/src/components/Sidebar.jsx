@@ -6,19 +6,19 @@ export default function Hello() {
         <div className="sidebar-holder">
             
             <div className="button-holder">
-                <Button kind="danger">
+                <Button className="sidebar-button" kind="danger">
                     Documentation
                 </Button>
-                <Button kind="danger">
+                <Button className="sidebar-button" kind="danger">
                     Questions
                 </Button>
-                <Button kind="danger">
+                <Button className="sidebar-button" kind="danger">
                     FAQ
                 </Button>
-                <Button kind="danger">
+                <Button className="sidebar-button" kind="danger">
                     Road Map
                 </Button>
-                <Button kind="danger">
+                <Button className="sidebar-button" kind="danger">
                     Live Chat
                 </Button>
             </div>
