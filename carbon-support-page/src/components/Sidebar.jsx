@@ -10,7 +10,7 @@ export default function Hello() {
                     Documentation
                 </Button>
                 <Button kind="danger">
-                    Feedback
+                    Questions
                 </Button>
                 <Button kind="danger">
                     FAQ

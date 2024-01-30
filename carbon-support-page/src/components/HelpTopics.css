@@ -27,6 +27,7 @@
 .help-popular-content-holder {
     display: flex;
     justify-content: stretch;
+    gap: 3px;
 }
 
 .help-button {
