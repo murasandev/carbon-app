@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         <DownArrow />
-        <RoadMap />
+        <RoadMap/>
         <HelpTopics />
       </div>
       <Footer />

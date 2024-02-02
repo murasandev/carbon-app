@@ -4,7 +4,7 @@ export default function HelpTopics() {
     return(
         <div>
             <div className="help-topics-content-holder">
-                <div className="help-topics-faq">
+                <div className="help-topics-faq" id='FAQID'>
                     <h1>FAQ </h1>
                     <Button className='faq-button' kind="danger">How do I improve site performance?</Button>
                     <Button className='faq-button' kind="danger">Are there tools for testing website accessibility?</Button>

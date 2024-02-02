@@ -12,10 +12,10 @@ export default function Hello() {
                 <Button className="sidebar-button" kind="danger">
                     Questions
                 </Button>
-                <Button className="sidebar-button" kind="danger">
+                <Button className="sidebar-button" kind="danger" href='#FAQID'>
                     FAQ
                 </Button>
-                <Button className="sidebar-button" kind="danger">
+                <Button className="sidebar-button" kind="danger" href='#roadmapID'>
                     Road Map
                 </Button>
                 <Button className="sidebar-button" kind="danger">

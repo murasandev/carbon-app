@@ -7,7 +7,7 @@ let intermediateText = 'Understand how the internet works, how clients and serve
 let advancedText ='Learn about technologies such as REST, SOAP, Asynchronous JavaScript and XML (AJAX), Cross-Origin Resource Sharing (CORS), and others that are required when a client interacts with a server.'
 export default function RoadMap() {
     return (
-      <div className="road-map-holder">
+      <div id='roadmapID' className="road-map-holder">
         <div className="road-map-content">
             <div className="road-map-image-holder">
                 <h1>Road Map</h1>

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .sidebar-holder {
     display: flex;
     flex-direction: column;
@@ -7,6 +11,7 @@
 
 }
 
-.button-holder button {
+.button-holder button, 
+.button-holder a {
     width: 100%;
 }
