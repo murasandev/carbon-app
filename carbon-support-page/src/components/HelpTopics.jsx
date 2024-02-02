@@ -12,7 +12,7 @@ export default function HelpTopics() {
                     <Button className='faq-button' kind="danger">What are the best practices for optimizing a website for all devices?</Button>
                     <Button className='faq-button' kind="danger">How do I set up a build process for a front-end project?</Button>
                 </div>
-                <div className="help-topics-popular-content">
+                <div className="help-topics-popular-content" id='popularID'>
                     <h1>Popular Topics </h1>
                     <div className="help-popular-content-holder">
                         <Button className='help-button' kind="danger">Design Systems</Button>

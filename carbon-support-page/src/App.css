@@ -41,6 +41,9 @@
 .read-the-docs {
   color: #888;
 } */ 
+html {
+  scroll-behavior: smooth;
+}
 
 .page-holder {
   direction: flex;

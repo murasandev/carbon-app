@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 .sidebar-holder {
     display: flex;
     flex-direction: column;
