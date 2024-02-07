@@ -56,8 +56,9 @@ html {
   display: flex;
   margin: auto;
   padding-top: 5%;
-  height: auto;
+  height: 70vh;
   /* gap: 5%; */
+  /* background-color: red; */
 }
 
 .sidebar-holder {
@@ -68,8 +69,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  flex: 3;
-  /* align-items: stretch; */
+  flex: 4;
 }
 
 .title-content-holder {
