@@ -23,7 +23,7 @@ export default function SwitcherImage() {
                 <ImageHolder title={imgTitle1} picture={img1} />
                 <ImageHolder title={imgTitle2} picture={img2} />
             </div>
-            <ContentSwitcher 
+            <ContentSwitcher className="content-switcher"
               onChange={(obj) => {
                 let { index, name, text } = obj;
                 // alert(`index: ${index} ||  name: ${name} || text: ${text}`);

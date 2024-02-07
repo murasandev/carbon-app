@@ -31,7 +31,7 @@ function App() {
             <Sidebar />
           </div>
           <div className="switcher-holder">
-            <SwitcherImage />
+            <SwitcherImage className="switch-holder"/>
             <div className="notification-holder">
               <Notification />
             </div>

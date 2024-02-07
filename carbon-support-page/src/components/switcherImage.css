@@ -1,7 +1,14 @@
 .comp-holder {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .switch-image-holder {
     display: flex;
+  }
+
+  .content-switcher {
+    width: 100%;
   }

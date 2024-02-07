@@ -56,16 +56,20 @@ html {
   display: flex;
   margin: auto;
   padding-top: 5%;
-  /* width: 80%; */
   height: auto;
   /* gap: 5%; */
+}
+
+.sidebar-holder {
+  flex: 1;
 }
 
 .switcher-holder {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  align-items: center;
+  flex: 3;
+  /* align-items: stretch; */
 }
 
 .title-content-holder {
