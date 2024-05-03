@@ -4,3 +4,9 @@
 
 
 ![Screenshot (10)](https://github.com/murasandev/carbon-app/assets/82681981/2cb88fee-5dc1-4493-913f-ed7782f1c6e2)
+
+Instructions:
+
+Step 1: npm install
+
+Step 2: npm run dev
